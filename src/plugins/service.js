@@ -12,7 +12,16 @@ const callAPI = async (show_id) => {
             Authorization: `Bearer ${VITE_API_ACCESS_TOKEN}`
         }
     })
-    .then(res => res.json())
-    .then(json => console.log(json))
-    .catch(err => console.error('error:' + err));
+    let response =await request.json()
+    return response
 }
+callAPI(456)
+/** Show IDs we're going to use:
+ * 
+ * Simpsons: 456
+ * George Lopez: 3308
+ * The Office: 2316
+ * Seinfeld: 1400
+ * 
+*/ 
+
