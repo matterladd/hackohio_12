@@ -6,7 +6,7 @@ const signInWithGoogle = async() => {
     try{
         const result = await signInWithPopup(auth, googleProvider)
         if(result){
-            router.push('/test')
+            router.push('/SeriesList')
         }else {
             throw new error
         }

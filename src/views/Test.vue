@@ -1,3 +1,0 @@
-<template>
-    it worked
-</template>
