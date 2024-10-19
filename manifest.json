@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "rand comfort show Extension",
+    "description": "Randomize your comfort shows Extension",
+    "version": "0.5",
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
