@@ -1,3 +1,3 @@
 <template>
-    Haha it works
+    <div>Show: {{ $route.params.id }}</div>
 </template>

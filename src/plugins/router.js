@@ -7,7 +7,7 @@ import SeriesPage from '../views/SeriesPage.vue'
 const routes = [
   { path: '/', component: Home },
   { path: '/SeriesList', component: SeriesList },
-  { path: '/SeriesPage', component: SeriesPage},
+  { path: '/SeriesPage/:id',name: 'SeriesPage', component: () => import('../views/SeriesPage.vue')},
 ]
 
 const router = createRouter({
