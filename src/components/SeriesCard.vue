@@ -1,4 +1,9 @@
 <script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+
+});
 </script>
 <template>
     <div class="container">
