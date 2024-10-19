@@ -15,13 +15,13 @@ const callAPI = async (show_id) => {
     let response =await request.json()
     return response
 }
-callAPI(456)
+console.log(await callAPI(456))
+// callAPI(456)
 /** Show IDs we're going to use:
- * 
+ *
  * Simpsons: 456
  * George Lopez: 3308
  * The Office: 2316
  * Seinfeld: 1400
- * 
-*/ 
-
+ *
+*/
